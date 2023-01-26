@@ -1,0 +1,20 @@
+{
+    "name": "StockBeat",
+    "version": "0.0.1",
+    "description": "Create Stock Price Alert",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "action": {
+        "default_title": "StockBeat",
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "32": "/assets/icons8-pulse-32.png",
+        "100": "/assets/icons8-pulse-64.png"
+    }
+}
