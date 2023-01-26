@@ -4,6 +4,7 @@ import websockets
 from nsetools import Nse
 
 
+
 async def stock_price(websocket, path):
     while True:
         stock_symbol = await websocket.recv()
