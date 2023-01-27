@@ -3,11 +3,14 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <input type="text" id="input-el">
+        <input type="text" id="quote" placeholder="Enter Your NSE Quote Here!!"><br />
+        <select name="conditions" id="conditions">
+          <option value="greater than">Greater Than</option>
+          <option value="equal to">Equal To</option>
+          <option value="less than">Less Than</option>
+        </select><br />
+        <input type="text" id="price_condition" placeholder="Enter Your Price Condition Here!!"><br />
         <button id="input-btn">SAVE ALERT</button>
-        <button id="delete-btn">DELETE</button>
-        <ul id="ul-el">
-        </ul>
         <script src="index.js"></script>
     </body>
 </html>
